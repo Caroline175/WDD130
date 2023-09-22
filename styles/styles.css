@@ -1,5 +1,5 @@
 nav {
-    background-color: steelblue ;
+    background-color:#660708;
     padding: 10px; 
 }
 nav a {
@@ -8,15 +8,43 @@ nav a {
     padding: 20px
 }
 h1 {
-    color: steelblue;
+    color: #000000;
 }
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #000000;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
     padding: 10px;
+}
+main{
+    max-width: 840px;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0 0 0 0.2);
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #333;
+    text-align:center;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+main img{
+    width: 150px;
+    height: auto;
+}
+p {
+    padding: 0;
+}
+footer{
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
 }
