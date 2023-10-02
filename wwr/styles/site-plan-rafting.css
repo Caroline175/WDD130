@@ -1,18 +1,18 @@
 @import url('https://fonts.google.com/specimen/Skranji?query=Skranji');
 
-:root {
---primary-color: #fdf0d5;
---secondary-color: #669bbc;
---acent1-color: #780000;
---acent2-color: #c1121f;
+:root{
+    --primary-color: #fdf0d5;
+    --secondary-color: #669bbc;
+    --accent1-color: #780000;
+    --accent2-color: #C1121F;
 
---heading-font: 'skranji', serif;
---paragraph-font: 'Josefin Sans';
+    --heading-font: 'Skranji', serif;
+    --paragraph-font: 'Josefin Sans', serif;
 
---nav-background-color: #fdf0d5;
---nav-link-color: #669bbc;
---nav-hover-link-color: #780000;
---nav-hover-background-color: #c1121f;
+    --nav-background-color: #fdf0d5;
+    --nav-link-color: #669bbc;
+    --nav-hover-link-color: #780000;
+    --nav-hover-background-color: #C1121F;
 }
 
 body{
@@ -21,21 +21,21 @@ body{
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 header {
     padding: 20px;
-    background-color: var(--acent1-color);
+    background-color: var(--accent1-color);
 }
 
-p {
+p{
     padding: 25px;
 }
 
-nav {
+nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
