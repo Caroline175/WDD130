@@ -39,6 +39,7 @@ aside img{
 main img{
     width: 150px;
     height: auto;
+    float: right;
 }
 p {
     padding: 0;
@@ -55,7 +56,7 @@ footer{
     box-sizing: border-box;
 }
 
-/*class Selectors*/
+/*Class Selectors*/
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
@@ -67,4 +68,10 @@ footer{
 aside {
     width: 20em;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 500px;
+    left: 150px;
 }
