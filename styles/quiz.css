@@ -1,25 +1,64 @@
+/* styles/quiz.css */
+
 body {
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
+    padding: 0;
 }
 
 .quiz-container {
-    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
     padding: 20px;
-    max-width: 600px;
-    width: 100%;
-    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
 }
 
 label {
-    display: block;
     font-weight: bold;
-    margin-bottom: 5px;
+    display: block;
 }
+
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Optional: Styles for the h1 heading */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
 
 
 
