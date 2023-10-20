@@ -3,29 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
     <title>Quiz</title>
 </head>
 <body>
-    <form>
-        <label for="name">Full Name</label><br>
-        <input type="text" id="fullname" name="fullname"><br>
+    <div class="quiz-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="fullname" name="fullname"><br>
+            </div>
 
-        <label for="question 2">What is the best part about this class?</label><br>
-        <textarea id="quesion2" name="question2" rows="4" cols="50"></textarea><br>
+            <div class="form-group">
+                <label for="question 2">What is the best part about this class?</label><br>
+                <textarea id="question2" name="question2" rows="4" cols="50"></textarea><br>
+            </div>
 
-        <label for="Subjects">What is your favorite subject in school?</label><br>
-        <select name="subjects" id="subjects">
-            <option value="English">English</option>
-            <option value="Math">Math</option>
-            <option value="History">History</option>
-            <option value="Science">Science</option>
-        </select><br>
+            <div class="form-group">
+                <label for="Subjects">What is your favorite subject in school?</label><br>
+                <select name="subjects" id="subjects">
+                    <option value="English">English</option>
+                    <option value="Math">Math</option>
+                    <option value="History">History</option>
+                    <option value="Science">Science</option>
+                </select><br>
+            </div>
 
-        <label for="credits">Credits taken?</label><br>
-        <input type="number" id="credits" name="credits" min="0" max="145"><br>
+            <div class="form-quiz">
+                <label for="credits">Credits taken?</label><br>
+                <input type="number" id="credits" name="credits" min="0" max="145"><br>
+            </div>
 
         <input type="submit" value="Submit">
     </form>
+    </div>
+
     
 </body>
 </html>

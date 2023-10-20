@@ -33,14 +33,15 @@ p {
 .grid {
     display: grid;
     align-items: center;
-    max-width: 600px;
+    max-width: 840px;
 }
 
 
 main{
     max-width: 840px;
-    grid-column: 2/3;
+    grid-column: 2;
     margin: 1rem;
+
 
 }
 aside {
@@ -80,6 +81,16 @@ footer{
     box-sizing: border-box;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 /*Class Selectors*/
 .box {
     margin: 1rem;
@@ -90,17 +101,25 @@ footer{
 }
 
 aside {
-    width: 20em;
-    text-align: center;
+    width: 20rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    display: block;
 }
 
 aside h2 {
     position: absolute;
-    top: 500px;
-    left: 150px;
+    top: -33px;
+    left: 125px;
 }
 
 header, footer {
     max-width: 840px;
     margin: 0 auto;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
