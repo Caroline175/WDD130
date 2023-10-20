@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Caroline Avance"
     <link rel="stylesheet" href="quiz.css">
     <title>Quiz</title>
 </head>
@@ -11,17 +12,17 @@
         <form>
             <div class="form-group">
                 <label for="name">Full Name</label><br>
-                <input type="text" id="fullname" name="fullname"><br>
+                <input type="text" id="q1" name="q1"><br>
             </div>
 
             <div class="form-group">
                 <label for="question 2">What is the best part about this class?</label><br>
-                <textarea id="question2" name="question2" rows="4" cols="50"></textarea><br>
+                <textarea id="q2" name="q2" rows="4" cols="50"></textarea><br>
             </div>
 
             <div class="form-group">
                 <label for="Subjects">What is your favorite subject in school?</label><br>
-                <select name="subjects" id="subjects">
+                <select name="q3" id="q3">
                     <option value="English">English</option>
                     <option value="Math">Math</option>
                     <option value="History">History</option>
@@ -31,13 +32,12 @@
 
             <div class="form-quiz">
                 <label for="credits">Credits taken?</label><br>
-                <input type="number" id="credits" name="credits" min="0" max="145"><br>
+                <input type="q4" id="q4" name="credits" min="0" max="145"><br>
             </div>
 
         <input type="submit" value="Submit">
     </form>
     </div>
 
-    
 </body>
 </html>
