@@ -5,9 +5,10 @@
 }
 
 * {
-    margin: 0;
+    margin: 1rem;
     padding: 0;
     box-sizing: border-box;
+    grid-column: 2/3;
 }
 
 header, main, footer {
@@ -57,3 +58,9 @@ header, main, footer {
 .sociallinks a {
     text-decoration: none;
 }
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
