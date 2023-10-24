@@ -130,6 +130,8 @@ footer {
     font-weight: bold;
 }
 
+
+
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .content {
@@ -169,7 +171,15 @@ footer {
     left: 100px;
 }
 
-    
+.trip {
+    width: 450px;
+}
+
+.chart {
+    position: absolute;
+    left: 700px;
+    top: 150px;
+}
 
 
 .hero-img img {
