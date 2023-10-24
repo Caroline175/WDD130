@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White Water Rafting - Contact Us</title>
+    <meta name="author" content="Caroline Avance">
+    <meta name="description" content="The contact us page"
     <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -23,9 +25,7 @@
     </header>
 
     <main class="container">
-        <section class="hero">
-            <h1>Adventure Awaits You!</h1>
-        </section>
+    
 
         <section class="content">
             <div class="company-info">
@@ -34,6 +34,7 @@
                 <p>Email: theraftingcompany@gmail.com</p>
 
             </div>
+            </section>
             <div class="map">
                 <iframe width="300" height="200" frameborder="0" style="border:0"
                     src="https://www.google.com/maps/place/525+S+Center+St,+Rexburg,+ID+83460/@43.8141928,-111.785657,17z/data=!3m1!4b1!4m6!3m5!1s0x53540b03c3c8b0cd:0xfd28a97e4cccebc!8m2!3d43.814189!4d-111.7830821!16s%2Fg%2F11c5ccmrwf?entry=ttu" allowfullscreen>
@@ -41,21 +42,55 @@
             </div>
 
             <section class="employee-img">
-                <img src="styles/images/justallan.jpeg" alt="Allan">
+                <img src="styles/images/justallan.jpeg" alt="Allan" class="horizontal-image">
                 <p>Allan: Employee of the Year</p>
 
-                <img src="styles/images/justken.webp" alt="Ken">
+                <img src="styles/images/justken.webp" alt="Ken" class="horizontal-image">
                 <p>Ken: Guide</p>
 
-                <img src="styles/images/justpete.png" alt="Pete">
+                <img src="styles/images/justpete.png" alt="Pete" class="horizontal-image">
                 <p>Pete: Guide</p>
                 
             </section>
 
+            <section>
+                <div class="container-letter">
+                    <h1>Subscribe to Our Newsletter</h1>
+                    <p>Get all the latest offers.</p>
+        
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+            
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+            
+                    <label>Purpose of Message:</label><br>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry">
+                    <label for="general">General Inquiry</label><br>
+            
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+            
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label><br><br>
+            
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
+            
+                    <input type="submit" value="Submit">
+                </form>
+            </body>
+            
+            </section>
+            
+
         
             
             
-        </section>
+        
 
     </main>
 

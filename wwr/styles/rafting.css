@@ -23,6 +23,7 @@ header {
     padding: 0 20px;
 }
 
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -36,8 +37,16 @@ nav a {
 }
 
 .hero {
-    text-align: center;
-    margin: 50px 0;
+    
+    left: 390px;
+    top: 175px;
+}
+
+.container-letter {
+    position: absolute;
+    left: 390px;
+    top: 150px;
+
 }
 
 .aboutdescription {
@@ -80,23 +89,28 @@ footer {
     flex-wrap: wrap;
 }
 
-.company-info, .map {
-    flex: 1;
-    margin: 20px;
+.company-info {
+    position: absolute;
+    top: 75px;
+    left: 10px;
 }
+ .map {
+    position: absolute;
+    top: 175px;
+    left: 10px;
+ }
+
 
 /* Styles for the employee images section */
 .employee-img {
-    text-align: center;
-    margin-top: 50px;
+    margin-left: 700px;
 }
 
 .employee-img img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover;
-    margin: 10px;
+    
 }
 
 .employee-img p {
@@ -138,27 +152,30 @@ footer {
     margin-bottom: 10px;
 }
 
-.hero-content{
-width: 100%;
-height: 300px;
-left: 100px
-}
 
-.hero-img {
-    left: 100px;
-    height: 350px;
-    width: 100%;
+
+.hero-img {  
+  height: 300px;
+  width: 100%;
+    
 }
 
 .hero-img img {
-    width: 375px;
-    height: 300px;
-
+    width: 385px;
+    height: 200px;
+    
+    
+    
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+}
+
+.adventure img {
+    height: 300px;
+    width: 200px;
 }
 
 
