@@ -101,6 +101,17 @@ footer {
     
  }
 
+.contact-img {
+    position:absolute;
+    left: 10px;
+    top: 400px;
+}
+
+.contact-img img {
+    width: 200px;
+    height: 200px;
+}
+
 
 /* Styles for the employee images section */
 .employee-img {
