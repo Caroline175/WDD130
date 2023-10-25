@@ -1,4 +1,8 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -175,9 +179,11 @@ footer {
     width: 450px;
 }
 
+
+
 .chart {
     position: absolute;
-    left: 700px;
+    left: 550px;
     top: 150px;
 }
 
@@ -206,8 +212,8 @@ footer {
 }
 
 .adventure img {
-    height: 300px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 
